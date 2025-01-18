@@ -1,0 +1,60 @@
+
+body{
+    font-family:sour gummy;
+color:#280003;
+background-color:#545677;
+margin:0px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+h1{
+    text-decoration: underline;
+    text-shadow: #545677 2px 2px 2px;
+}
+#app{
+    border:2px solid #280003;
+    border-radius:30px ;
+    padding:15px;
+    background-color: #DBD9DB;
+    text-align: center;
+}
+input[type="text"]{
+    background-color: #E5EBEA;
+    font-family:sour gummy;
+    border:2px solid #280003;
+    outline: none;
+    border-radius:80px;
+    padding:2px 4px;
+    margin:8px;
+
+}
+.add-task-button, .delete-button, .complete-button, .edit-button {
+    font-family:sour gummy;
+    background-color:#B098A4;
+    color:#280003;
+    border-radius:80px;
+    padding:2px 4px;
+    margin:8px;
+    cursor:pointer;
+}
+.add-task-button:hover, .delete-button:hover, .complete-button:hover{
+    background-color:#280003;
+    color:#B098A4;
+}
+#task-container{
+    border: 2px solid #280003;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+ul{
+    list-style-type: bullet;
+    padding:0px;
+}
+
+li span.completed{
+    text-decoration: line-through;
+}
